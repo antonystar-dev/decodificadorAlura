@@ -1,0 +1,231 @@
+body {
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 769px) {
+    .geral {
+
+        width: 1440px;
+        height: 1024px;
+        position: relative;
+
+
+    }
+
+    .logoAlura {
+        box-sizing: border-box;
+        height: 48px;
+
+        margin-top: 40px;
+        margin-left: 80px;
+    }
+
+    .retanguloLateral {
+        background-color: white;
+        width: 400px;
+        height: 944px;
+        border-radius: 32px;
+        margin-left: 1000px;
+        margin-top: -40px;
+        position: absolute;
+
+    }
+
+
+
+    .fundoBotoes {
+
+        float: left;
+        margin-left: 240px;
+        margin-right: 80px;
+        margin-top: 717px;
+
+        height: 70px;
+    }
+
+    .menina {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        margin-top: 250px;
+
+    }
+
+    .textoQuadro {
+        width: 336px;
+        height: 122px;
+        gap: 16px;
+        margin-left: 32px;
+    }
+
+    .txtQuadro1 {
+        color: black;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28.8px;
+        text-align: center;
+    }
+
+    .txtQuadro2 {
+        color: black;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .txtFundo1 {
+        color: #0A3871;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+
+    .txtFundo2 {
+        margin-top: 168px;
+        margin-left: 240px;
+        position: absolute;
+        color: #0A3871;
+        font-size: 32px;
+
+    }
+
+    .txtFundo3 {
+        margin-top: 680px;
+        margin-left: 240px;
+        position: absolute;
+        color: #495057;
+
+    }
+
+    .btCrip {
+        background-color: #0A3871;
+        color: white;
+        width: 328px;
+        height: 67px;
+        border-radius: 24px;
+        font-size: 16px;
+        margin-right: 24px;
+    }
+
+    .btDecrip {
+        background-color: #D8DFE8;
+        color: #0A3871;
+        width: 328px;
+        height: 67px;
+        border-radius: 24px;
+        font-size: 16px;
+    }
+}
+
+/*TABLET*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .geral {
+        background-color: red;
+
+        position: relative;
+width: 100%;
+
+    }
+
+    .logoAlura {
+        box-sizing: border-box;
+        height: 48px;
+        margin-top: 40px;
+        margin-left: 80px;
+    }
+
+    .retanguloLateral {
+        background-color: white;
+        width: 688px;
+        height: 133px;
+        border-radius: 32px;
+        margin-left: 40px;
+        margin-top: 1000px;
+        position: absolute;
+
+    }
+
+
+
+    .fundoBotoes {
+
+        float: left;
+        margin-left: 40px;
+        
+        margin-top: 680px;
+
+        height: 70px;
+    }
+
+    .menina {
+        display: none;
+
+    }
+
+    .textoQuadro {
+        width: 336px;
+        height: 122px;
+        gap: 16px;
+        margin-left: 32px;
+    }
+
+    .txtQuadro1 {
+        color: black;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28.8px;
+        text-align: center;
+    }
+
+    .txtQuadro2 {
+        color: black;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+
+
+    .txtFundo2 {
+        margin-top: 200px;
+        margin-left: 40px;
+        position: absolute;
+        color: #0A3871;
+        font-size: 32px;
+
+    }
+
+    .txtFundo3 {
+        margin-top: 636px;
+        margin-left: 40px;
+        position: absolute;
+        color: #495057;
+
+    }
+
+    .btCrip {
+        background-color: #0A3871;
+        color: white;
+        width: 328px;
+        height: 67px;
+        border-radius: 24px;
+        font-size: 16px;
+        margin-right: 24px;
+       
+    }
+
+    .btDecrip {
+        background-color: #D8DFE8;
+        color: #0A3871;
+        width: 328px;
+        height: 67px;
+        border-radius: 24px;
+        font-size: 16px;
+        
+    }
+}
+
+@media screen and (max-width: 480px) {}
