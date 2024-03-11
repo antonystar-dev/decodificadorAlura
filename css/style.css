@@ -1,17 +1,19 @@
-body {
-    background-color: #E5E5E5;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
+/*DESKTOP*/
 @media screen and (min-width: 769px) {
+    body {
+        background-color: #E5E5E5;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
     .geral {
 
         width: 1440px;
         height: 1024px;
         position: relative;
+       
 
 
     }
@@ -41,9 +43,9 @@ body {
 
         float: left;
         margin-left: 240px;
-        margin-right: 80px;
-        margin-top: 717px;
 
+        margin-top: 717px;
+        display: flex;
         height: 70px;
     }
 
@@ -122,54 +124,49 @@ body {
 
 /*TABLET*/
 @media screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        background-color: #E5E5E5;
+    }
+
     .geral {
-        background-color: red;
-
-        position: relative;
-width: 100%;
-
+       
+        width: 100%;
+        margin: 0;
+        position: absolute;
     }
 
     .logoAlura {
         box-sizing: border-box;
         height: 48px;
         margin-top: 40px;
-        margin-left: 80px;
+        margin-left: 40px;
+        position: absolute;
     }
 
     .retanguloLateral {
         background-color: white;
-        width: 688px;
+        width: 90%;
+        margin-left: 5%;
         height: 133px;
         border-radius: 32px;
-        margin-left: 40px;
-        margin-top: 1000px;
-        position: absolute;
-
+        margin-top: 2rem;
     }
 
-
-
     .fundoBotoes {
-
-        float: left;
-        margin-left: 40px;
-        
-        margin-top: 680px;
-
-        height: 70px;
+        margin-left: 5%;
+        display: flex;
+        margin-top: 32rem;
+       
     }
 
     .menina {
         display: none;
-
     }
 
     .textoQuadro {
-        width: 336px;
         height: 122px;
         gap: 16px;
-        margin-left: 32px;
+        padding-top: 5px;
     }
 
     .txtQuadro1 {
@@ -187,20 +184,18 @@ width: 100%;
         text-align: center;
     }
 
-
-
     .txtFundo2 {
-        margin-top: 200px;
-        margin-left: 40px;
+        margin-top: 10rem;
         position: absolute;
         color: #0A3871;
+        margin-left: 5%;
         font-size: 32px;
 
     }
 
     .txtFundo3 {
-        margin-top: 636px;
-        margin-left: 40px;
+        margin-top: 30rem;
+        margin-left: 5%;
         position: absolute;
         color: #495057;
 
@@ -213,8 +208,6 @@ width: 100%;
         height: 67px;
         border-radius: 24px;
         font-size: 16px;
-        margin-right: 24px;
-       
     }
 
     .btDecrip {
@@ -224,8 +217,105 @@ width: 100%;
         height: 67px;
         border-radius: 24px;
         font-size: 16px;
-        
     }
 }
+/*SMARTPHONE*/
+@media screen and (max-width: 480px) {
 
-@media screen and (max-width: 480px) {}
+    body {
+        background-color: #E5E5E5;
+    }
+
+    .geral {
+        background-color: rgb(87, 47, 47);
+        width: 100%;
+        margin: 0;
+        position: absolute;
+    }
+
+    .logoAlura {
+        box-sizing: border-box;
+        height: 48px;
+        margin-top: 40px;
+        margin-left: 40px;
+        position: absolute;
+    }
+
+    .retanguloLateral {
+        background-color: white;
+        width: 90%;
+        margin-left: 5%;
+        height: 133px;
+        border-radius: 32px;
+        margin-top: 2rem;
+    }
+
+    .fundoBotoes {
+        margin-left: 5%;
+        display: flex;
+        margin-top: 32rem;
+        background-color: rgb(0, 255, 106);
+    }
+
+    .menina {
+        display: none;
+    }
+
+    .textoQuadro {
+        height: 122px;
+        gap: 16px;
+        padding-top: 5px;
+    }
+
+    .txtQuadro1 {
+        color: black;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28.8px;
+        text-align: center;
+    }
+
+    .txtQuadro2 {
+        color: black;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .txtFundo2 {
+        margin-top: 10rem;
+        position: absolute;
+        color: #0A3871;
+        margin-left: 5%;
+        font-size: 32px;
+
+    }
+
+    .txtFundo3 {
+        margin-top: 30rem;
+        margin-left: 5%;
+        position: absolute;
+        color: #495057;
+
+    }
+
+    .btCrip {
+        background-color: #0A3871;
+        color: white;
+        width: 328px;
+        height: 67px;
+        border-radius: 24px;
+        font-size: 16px;
+    }
+
+    .btDecrip {
+        background-color: #D8DFE8;
+        color: #0A3871;
+        width: 328px;
+        height: 67px;
+        border-radius: 24px;
+        font-size: 16px;
+    }
+
+
+}
