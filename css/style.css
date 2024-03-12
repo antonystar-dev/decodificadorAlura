@@ -9,19 +9,14 @@
     }
 
     .geral {
-
         width: 1440px;
         height: 1024px;
         position: relative;
-
-
-
     }
 
     .logoAlura {
         box-sizing: border-box;
         height: 48px;
-
         margin-top: 40px;
         margin-left: 80px;
     }
@@ -34,16 +29,13 @@
         margin-left: 1000px;
         margin-top: -40px;
         position: absolute;
-
     }
 
 
 
     .fundoBotoes {
-
         float: left;
         margin-left: 240px;
-
         margin-top: 717px;
         display: flex;
         height: 70px;
@@ -54,7 +46,6 @@
         width: 100%;
         padding: 5px;
         margin-top: 250px;
-
     }
 
     .textoQuadro {
@@ -91,6 +82,12 @@
         position: absolute;
         color: #0A3871;
         font-size: 32px;
+        width: 680px;
+        box-sizing: border-box;
+        border: none;
+        border-radius: 4px;
+        background-color: #E5E5E5;
+
 
     }
 
@@ -99,7 +96,6 @@
         margin-left: 240px;
         position: absolute;
         color: #495057;
-
     }
 
     .btCrip {
@@ -129,7 +125,6 @@
     }
 
     .geral {
-
         width: 100%;
         margin: 0;
         position: absolute;
@@ -154,9 +149,9 @@
 
     .fundoBotoes {
         margin-left: 5%;
+        margin-right: 5%;
         display: flex;
         margin-top: 32rem;
-
     }
 
     .menina {
@@ -190,7 +185,6 @@
         color: #0A3871;
         margin-left: 5%;
         font-size: 32px;
-
     }
 
     .txtFundo3 {
@@ -198,7 +192,6 @@
         margin-left: 5%;
         position: absolute;
         color: #495057;
-
     }
 
     .btCrip {
@@ -255,7 +248,6 @@
         margin-right: 5%;
         display: row;
         margin-top: 32rem;
-
     }
 
     .menina {
@@ -263,10 +255,8 @@
     }
 
     .textoQuadro {
-
         gap: 16px;
         padding-top: 5px;
-
         width: 80%;
         margin-left: 10%;
     }
@@ -292,7 +282,6 @@
         color: #0A3871;
         margin-left: 5%;
         font-size: 32px;
-
     }
 
     .txtFundo3 {
@@ -300,7 +289,6 @@
         margin-left: 5%;
         position: absolute;
         color: #495057;
-
     }
 
     .btCrip {
