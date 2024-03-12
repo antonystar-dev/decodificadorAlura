@@ -13,7 +13,3 @@ $traducoes2 = array("ai", "enter", "imes", "ober", "ufat");
 $palavraDecriptografada = strtr($palavraNova, array_combine($traducoes2, $letras));
 echo $palavraDecriptografada;
 ?>
-
-
-
-
