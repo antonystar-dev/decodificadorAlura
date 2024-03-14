@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let palavraNatural = 'o gato caiu da sacada';
+        let letras = ['a', 'e', 'i', 'o', 'u'];
+        let traducoes = ['ai', 'enter', 'imes', 'ober', 'ufat'];
+//separar em array
+palavraSeparada = palavraNatural.split('');
+//document.write(palavraSeparada);
+//aq vejo se leio as letras
+const result = palavraSeparada.filter((word) => palavraSeparada.length > 6);
+//document.write(result);
+//palavraSeparada.splice(5);
+//document.write(palavraSeparada.length);
+
+palavraSeparada = palavraSeparada.map(item => {
+  if (typeof item === 'string') {
+    document.write(item.replace(/a/g,'WR'));
+    
+  } else {
+    document.write(item);
+  }
+  if (typeof item === 'string') {
+    document.write(item.replace(/i/g,'MM'));
+    
+  } else {
+    document.write(item);
+  }
+});
+
+// document.write("Hello World!");
+        //const teste = letras.entries();
+       // document.write(teste.next().value);
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+
+vogis=array(a e i o u)
+vcript=array('ai', 'enter', 'imes', 'ober', 'ufat')
+
+array que separa cada letra e da uma posição, contar o espaço vazio.
+palavra=array("frase que quero");
+-----aqui faço alguma função que mapeia o array falando o que tem em cada campo
+--------aqui falo para comparar e substituir o array vogais (terei que utilizar array composto)
+------------ele vai analisar o que tem em tal posição e vai substituir

@@ -16,13 +16,13 @@
             
         </div>
         
-        <textarea id="areaTXT" name="story" rows="5" cols="33" class="txtFundo2">
-            Digite seu texto
+        <textarea rows="5" cols="33" class="areaTXT" placeholder="Digite seu texto">
+          
             </textarea>
         <p class="txtFundo3">Apenas letras minusculas e sem ascento</p>
         <div class="fundoBotoes">
-            <button class="btCrip" onclick="criptografar()">Criptografar</button>
-            <button class="btDecrip" onclick="decriptografar()">decriptografar</button>
+            <button class="btCrip" onclick="btnEncriptar()">Criptografar</button>
+            <button class="btDecrip" onclick="btnDesencriptar()">decriptografar</button>
 
         </div>
         <div class="retanguloLateral">
@@ -30,11 +30,13 @@
             <div class="textoQuadro">
                 <p class="txtQuadro1">Nenhuma mensagem encontrada</p>
                 <p class="txtQuadro2">Digite um texto que você deseja criptografar ou descriptografar</p>
-                <p class="txtQuadro3" id="resultadoTxt">dddd</p>
+                <textarea  rows="5" cols="33" class="resultadoTxt">
+                                        </textarea>
+                
             </div>
         </div>
     </div>
-    <script src="js/function.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
